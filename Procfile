@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-nginx public/
+web: php -S -t public public/index.php
