@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f6ced58fec0983da3b488d1886185139",
+    "content-hash": "e948e48f0baf2b64a117025a2d83e429",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -4776,6 +4776,51 @@
                 }
             ],
             "time": "2022-03-03T08:28:38+00:00"
+        },
+        {
+            "name": "heroku/heroku-buildpack-php",
+            "version": "v212",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/heroku/heroku-buildpack-php.git",
+                "reference": "8b90c86b7bd15f6a516bb2d8e877cb30cd77b90a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/8b90c86b7bd15f6a516bb2d8e877cb30cd77b90a",
+                "reference": "8b90c86b7bd15f6a516bb2d8e877cb30cd77b90a",
+                "shasum": ""
+            },
+            "bin": [
+                "bin/heroku-php-apache2",
+                "bin/heroku-php-nginx"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Zuelke",
+                    "email": "dz@heroku.com"
+                }
+            ],
+            "description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP and Apache2/Nginx as on Heroku",
+            "homepage": "https://github.com/heroku/heroku-buildpack-php",
+            "keywords": [
+                "apache",
+                "apache2",
+                "foreman",
+                "heroku",
+                "nginx",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/heroku/heroku-buildpack-php/issues",
+                "source": "https://github.com/heroku/heroku-buildpack-php/tree/v212"
+            },
+            "time": "2022-02-25T17:31:55+00:00"
         },
         {
             "name": "myclabs/deep-copy",
