@@ -1,0 +1,19 @@
+<form action="/schools" method="get">
+    <input type="search" name="term" value="<?= htmlspecialchars($term) ?>" />
+    <input type="submit" value="Search" />
+    <table>
+        <?php foreach ($schools as $school): ?>
+            <tr>
+                <td>
+                    <?= $school['id'] ?>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <?= $school['name'] ?>
+                </td>
+            </tr>
+        <?php endforeach ?>
+    </table>
+
+</form>
